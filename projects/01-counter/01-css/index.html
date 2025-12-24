@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <script src="script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="wrap">
+            <div class="counter" role="group" aria-label="Counter">
+                <button class="btn minus" aria-label="Decrease">-</button>
+                <div class="value" aria-live="polite"><span>101</span></div>
+                <button class="btn plus" aria-label="Increase">+</button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>
